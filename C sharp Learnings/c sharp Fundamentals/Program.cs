@@ -138,6 +138,17 @@ namespace c_sharp_Fundamentals
             //-----------------------------
 
 
+
+            //--- namespace in c# ----------
+            // namespace help us to orgnise code in large projects
+            // namespace is collection of classes
+            // we can create namespace in another name space
+            // ex : we see in using System; --> is an namespace
+            //      we also se using System.IO --> here "System" is namespace and "IO" is also namespace under System.
+
+            // to Learn more about namespaces refer "namespaceLearning.cs" file
+            //------------------------------
+
             Console.ReadKey();
         }
     }
