@@ -47,6 +47,7 @@
     <Compile Include="InheritanceLearning.cs" />
     <Compile Include="methodsLearning.cs" />
     <Compile Include="namspaceLearning.cs" />
+    <Compile Include="PolymorphismLearning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
