@@ -107,9 +107,9 @@ namespace c_sharp_Fundamentals
             // XML comments are used to show the documentation comments of any funtion, class etc
             //ex:- 
             //  //<summary> this funtion add two numbers
-                //</summary>
+            //</summary>
             // public void add(int a,int b){};
-            
+
             //-------------------------------
 
 
@@ -139,6 +139,7 @@ namespace c_sharp_Fundamentals
 
 
 
+
             //--- namespace in c# ----------
             // namespace help us to orgnise code in large projects
             // namespace is collection of classes
@@ -148,6 +149,23 @@ namespace c_sharp_Fundamentals
 
             // to Learn more about namespaces refer "namespaceLearning.cs" file
             //------------------------------
+
+
+
+
+            //--- classes in c# ------------
+            // for classes refer classLeraaning.cs file
+            //------------------------------
+
+
+
+
+            //--- Inheretance in c# --------
+            // for inheritance refer InheritanceLearning.cs file
+            //refer the linq given below
+            //https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/inheritance
+            //------------------------------
+
 
             Console.ReadKey();
         }
