@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassesLearning.cs" />
+    <Compile Include="EncapsulationLearning.cs" />
     <Compile Include="InheritanceLearning.cs" />
     <Compile Include="methodsLearning.cs" />
     <Compile Include="namspaceLearning.cs" />

@@ -4,6 +4,8 @@ namespace c_sharp_Fundamentals
 {
     /// <summary>
     /// this Class is Used for Learning about Methods in c#
+    /// //static and instance methods
+    /// methods overlaoding
     /// </summary>
     class methodsLearning
     {
@@ -116,5 +118,65 @@ namespace c_sharp_Fundamentals
                 Console.WriteLine(item);
             }
         }
+
+
+
+        //--------Method OverLoading---------------------------------------------------
+
+        //Now we will Learn about method overlaoding
+        // method overlaoding is a having multiple methods with same method signamture
+        // method signature mean
+        // [MethodName]([parnameter type,number of parameters])  ---> syntax for method signature
+        //method signature does not include return type of method, and "param" modifier
+
+        //EX: below are example of method Overlaoding
+        //method with two int parameters
+        public static void CalculateArea(int a,int b)    //--> signature is CalculateArea()
+        {                                                //--> two input int parameters  --> int a,int b
+            Console.WriteLine(a * b);
+        }
+
+        //same method name with flaot parameter  ////--> signature is difrent from earier method so overloading possible
+        public static void CalculateArea(float a,float b)   //--> method overloading possible because diference parameter types(int,float)
+        {
+            Console.WriteLine(a * b);
+        }
+
+        //same method with three int parameter  ////--> signature is difrent from earier method so overloading possible
+        public static void CalculateArea(int a,int b,int c) //--> method overloading possible because diference number of parameter
+        {
+            Console.WriteLine(a * b * c);
+        }
+
+        //same method name with diference type of parameters  ////--> signature is difrent from earier method so overloading possible
+        public static void CalculateArea(int a,int b,out int Area)  //--> method overloading possible because diference type of parameter
+        {
+            Console.WriteLine(a * b);
+            Area = a * b;
+        }
+
+        //same funtion name but return type is diferent so this method is not overloadable
+        //public static int CalculateArea(int a,int b,int sum)
+        //{
+            
+        //    sum = a + b;
+        //    return sum;
+        //}
+
+        //Testing methodOverLoading
+        public static void TestingMethodOverloading()
+        {
+            //here we are testing which method are overlaodable
+            // CalculateArea(.....    when we write CalculateArea( we get recomentation for four difrent overlaodble methods
+            //with difrence parameters
+            //so
+            //CalculateArea(a, b);    --> int parameter
+            //CalculateArea(a, b, c);  --> three int parameters
+            //CalculateArea(a, b, c, d);  --> int parameters and out parameters
+            //CalculateArea(a, b);       --> flaot parameters  
+        }
+
+
+
     }
 }

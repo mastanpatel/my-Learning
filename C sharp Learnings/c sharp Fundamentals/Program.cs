@@ -172,6 +172,10 @@ namespace c_sharp_Fundamentals
             // for polymorphism refer PlomorphismLearning.cs file
             //------------------------------
 
+
+            //---- Encapsulation in c#----- and Properties in c#--------------
+            // for Learning Encapsulation and Properties Please Refer EncapsulationLearning.cs
+            //----------------------------------------------------------------
             Console.ReadKey();
         }
     }
