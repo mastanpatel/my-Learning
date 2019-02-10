@@ -176,6 +176,15 @@ namespace c_sharp_Fundamentals
             //---- Encapsulation in c#----- and Properties in c#--------------
             // for Learning Encapsulation and Properties Please Refer EncapsulationLearning.cs
             //----------------------------------------------------------------
+
+
+
+            //---- Strucutres and classes diference---------------------------
+            //Refer StructuresLearning.cs file 
+            //----------------------------------------------------------------
+
+
+
             Console.ReadKey();
         }
     }
