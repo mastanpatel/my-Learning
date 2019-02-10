@@ -181,6 +181,13 @@ namespace c_sharp_Fundamentals
 
             //---- Strucutres and classes diference---------------------------
             //Refer StructuresLearning.cs file 
+            // some concepts of value type and reference types
+            //----------------------------------------------------------------
+
+
+
+            //------ interfacese in c# ---------------------------------------
+            //Refer InterfacesLearning.cs file
             //----------------------------------------------------------------
 
 

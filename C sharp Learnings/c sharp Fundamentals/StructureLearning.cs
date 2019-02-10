@@ -35,8 +35,18 @@ namespace c_sharp_Fundamentals
         // where as in classes if we copy one referece variable to other then both referece variable point to same object
         // hence change in one varible casuses the object to change
 
+        // 7. structure's can't have distrcutors but classes have.
+        // (we don't need distructor because object are destroyed after scope is lost in strucutre)
+        // 8. strucutres cannot have Explicite ParameterLess Construcutre where as classes have
+        // because strucutre don't have concept of Onject reference variable so it don't require Explicity parameterless construcutor and destructor.
 
-        //Please Referer Following Image for More clarity
+        //8. Strucutre can't inherite from other classes but can inherit from interfaces , where as classes can inherite from othe classes and interfaces
+        //  strucutres are basically of Sealed Type 
+        // if we want to make any class not inheritable we have to make it as Sealed class
+        // sealed class dont have inheritance
+        // we can't inherite from strucutre (making strucutre as base type is not possible).
+
+        // Please Referer Following Image for More clarity
         // stack and Heap for classes and strucutres.... in this Reposotry..
         //-----------------------------------
     }
