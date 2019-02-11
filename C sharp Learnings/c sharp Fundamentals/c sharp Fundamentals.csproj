@@ -50,6 +50,7 @@
     <Compile Include="InheritanceLearning.cs" />
     <Compile Include="InterfacesLearning.cs" />
     <Compile Include="methodsLearning.cs" />
+    <Compile Include="MulticastDelegateLearning.cs" />
     <Compile Include="MultipleInheritanceLearning.cs" />
     <Compile Include="namspaceLearning.cs" />
     <Compile Include="PolymorphismLearning.cs" />

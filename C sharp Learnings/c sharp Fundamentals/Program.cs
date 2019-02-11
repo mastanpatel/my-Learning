@@ -210,6 +210,7 @@ namespace c_sharp_Fundamentals
 
             //----- Delegates in c#-------------------------------------------
             // Refer DelegateLearning.cs file
+            // Refer MulticastDelegateLearning.cs for Learning Multicast delegates
             //----------------------------------------------------------------
             Console.ReadKey();
         }
