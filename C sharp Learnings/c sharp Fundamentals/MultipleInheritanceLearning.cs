@@ -65,17 +65,51 @@ namespace c_sharp_Fundamentals
     
     interface IA
     {
-        void PrintName();
+        void PrintNameA();
     }
+
+    //class nA inheriting from Interface IA
+    class nA : IA
+    {
+        public void PrintNameA()
+        {
+            Console.WriteLine("Implemetation of IA interface Method.");
+        }
+    }
+
     interface IB
     {
-        void PrintName();
+        void PrintNameB();
     }
-    class E : IA, IB
+
+    class nB : IB
     {
-        public void PrintName()
+        public void PrintNameB()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Implemetation of IB interface Method.");
+        }
+    }
+
+    // now we try to inherit from Above two interfaces to achieve mutiple inheritance
+    // multiple inheritance mean having capapbilties of both Base classes which are Class nA and class nB here
+    class E //: IA, IB
+    {
+        //now we create objects of nA and nB
+        nA newA = new nA();
+        nB newB = new nB();
+
+        // now we implement below method of interface IA by just calling implemented Method in Class nA
+        public void PrintNameA()
+        {
+            //calling implemeted method in class nA
+            newA.PrintNameA();
+        }
+
+        // now we implement below method of interface IB by just calling implemented Method in Class nB
+        public void PrintNameB()
+        {
+            //calling implemeted method in class nB
+            newB.PrintNameB();
         }
     }
 
@@ -95,9 +129,19 @@ namespace c_sharp_Fundamentals
             //then there is an ambiguity which implementated method should it call
             // implementaed method in class B or implemented method of Class C
 
-           // d.PrintName();
+            // d.PrintName();
 
             //so multiple inheritance is a problem in c# or other languages but it is allowed in cpp with having exception of diamond Problem.
+
+
+
+            //-------------Multiple inheritance using interfaces--------
+
+            E e = new E();
+            e.PrintNameA();   //we can call method of class nA
+            e.PrintNameB();   // we can call method of class nB
+
+            //----------------------------------------------------------
         }
      }
 
