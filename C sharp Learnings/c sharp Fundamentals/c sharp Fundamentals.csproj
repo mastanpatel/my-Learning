@@ -47,6 +47,7 @@
     <Compile Include="ClassesLearning.cs" />
     <Compile Include="DelegateLearning.cs" />
     <Compile Include="EncapsulationLearning.cs" />
+    <Compile Include="ExceptionHandlingLearning.cs" />
     <Compile Include="InheritanceLearning.cs" />
     <Compile Include="InterfacesLearning.cs" />
     <Compile Include="methodsLearning.cs" />
