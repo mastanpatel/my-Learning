@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClassLearning.cs" />
     <Compile Include="ClassesLearning.cs" />
     <Compile Include="EncapsulationLearning.cs" />
     <Compile Include="InheritanceLearning.cs" />
     <Compile Include="InterfacesLearning.cs" />
     <Compile Include="methodsLearning.cs" />
+    <Compile Include="MultipleInheritanceLearning.cs" />
     <Compile Include="namspaceLearning.cs" />
     <Compile Include="PolymorphismLearning.cs" />
     <Compile Include="Program.cs" />

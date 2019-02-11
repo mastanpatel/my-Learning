@@ -186,10 +186,24 @@ namespace c_sharp_Fundamentals
 
 
 
+
             //------ interfacese in c# ---------------------------------------
             //Refer InterfacesLearning.cs file
             //----------------------------------------------------------------
 
+
+
+
+            //----- Abstract Class in c# -------------------------------------
+            //Refer AbstractClassLearning.cs
+            //----------------------------------------------------------------
+
+
+
+
+            //----- Problem with Multiple Inheritance in c#-------------------
+            //Refer MultipleInheritanceLearning.cs file
+            //----------------------------------------------------------------
 
 
             Console.ReadKey();
