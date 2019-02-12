@@ -2,6 +2,8 @@
 {
 
     //here we will Learn about Access Modifiers
+
+    //Namespace cannot have Modifiers or attribute
     class AccessModifiersLearning
     {
         //before Learning about Access Modifiers
