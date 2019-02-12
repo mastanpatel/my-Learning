@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractClassLearning.cs" />
+    <Compile Include="AccessModifiersLearning.cs" />
     <Compile Include="ClassesLearning.cs" />
     <Compile Include="DelegateLearning.cs" />
     <Compile Include="EncapsulationLearning.cs" />
