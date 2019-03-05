@@ -1,0 +1,61 @@
+﻿
+# WHat is Operating System?
+
+- OS is an Program which Controls execution of other Applicaition.
+- OS is an Interface Between USER of Computer and HardWare of Computer.
+- OS is one Program which is Always Running On Computer usually Called as (Kernal).
+- Kernal is heart of OS (os has many subprogrames and kernal is the main Program).
+
+-- the Main Work of OS is Concerned with the allocation of Resources and services(Given below) to the other Applicaitons.
+   -- Memory
+   -- Processor
+   -- devices
+   -- information   etc....
+
+-- and It has Programes to Manage above Listed Resources and those Programs are
+   -- Traffic Controller.
+   -- scheduler.
+   -- memory management module.
+   -- I/O Programs.
+   -- File System.
+
+
+# Responsinbilities or Funtionalities of OS
+ -- Convinience  --> it must make Computer more convinient to use.
+ -- Efficieny    --> it must make efficient Use of Computer Resources.
+ -- Ability to Evolve --> it must be Designed in such a way that if new funtionality development should be easy and sholud not interfere existing
+                          funtionality.
+
+
+
+#imp
+# Every General Computer Consist of
+ 1. Hardware.
+ 2. Operating System.
+ 3. System Programs.
+ 4. Applicaiton Programs.
+
+     -- HardWare Consist of
+	    1. Memory
+		2. CPU
+		3. ALU
+		4. I/O devices
+		5. Peripheral Device
+		6. storage Device
+
+     -- System Program COnsist of
+	   1. Compiler
+	   2. Loader
+	   3. Editors
+	   4. OS   etc...
+
+     -- Applicaition Program Consist of
+	  1. Business Programs
+	  2. Database Programs
+
+
+# some simple Examples of Task of Operating system.
+ -- It performs basic tasks such as recognizing input from the keyboard.
+ -- keeping track of files and directories on the disk.
+ -- sending output to the display screen and controlling peripheral devices.   etc...
+

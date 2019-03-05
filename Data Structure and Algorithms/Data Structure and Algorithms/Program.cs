@@ -28,6 +28,19 @@ namespace Data_Structure_and_Algorithms
             // 2. we Study various operations done on Data structure
             // 3. we Study Cost of Operations (Time and Memory Complexity of Data Structure)
             // 4. we Implement these Data Structure using C#
+
+
+
+            // *** Very Important Lesson***//   //*** Interview wise and Competative Programing Wise***//
+
+            // Take the Given Problem (Understand Problem thoroughly.
+            // List Down Type of Data and Operations needed in this Problem and Size of the Data.
+            // identify the most Heavily(Frequient) performed Operation (insertion, deletion, iteration etc...)
+            // choose the Basic Data Strucutre mostly suited to implement above mevtioned Data strucuture and its Operations
+            // with efficient cost (less costly)
+            // choose to implement From primitive sata strucute like (Array, LinkedList, Stack, Queue, Tree, Graph, Hash etc....)
+            // Optimise if any where Required.
+
             Console.ReadKey();
 
             

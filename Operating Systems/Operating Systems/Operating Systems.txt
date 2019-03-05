@@ -1,0 +1,22 @@
+﻿
+
+Main Topics of Operating System.
+-------------------------------------
+
+1. Basics of OS (what is OS, types of OS etc....)
+
+2. System Strucuture
+
+3. CPU Scheduling
+
+4. Process Syncronisation
+
+5. DeadLock
+
+6. Processes and Threads
+
+7. Memory Management
+
+8. Disk Management
+
+-------------------------------------
