@@ -1,0 +1,87 @@
+﻿there are various types of OS 
+
+lets start history of Operating system.
+
+1. MainFrame Systems:
+   
+   - these kind of system are initial OS where I/P and O/P where Punch Card passed as input and got the Result as Punchcard (output)
+   - thease system had very limited memory
+   - the main disadvantage was cpu was idle for most of the time because the i/p and o/p was very slow compare to processing.
+   - and there was very limited use of OS (only used to manage one process a time)
+
+   Next to overcome these limitations we introdused Batch Systems
+
+2. Batch OS:
+   
+   - Here the main changes are multiple jobs of similar jobs are processed at a time.
+   - here multiple user sumbit there jobs and operator will sort them into similar job batches for processing.
+
+   - the advantage was we have improved the cpu usage. but still needed some improvement.
+
+   -- next to overcome the limitations we intoduced Spooling.
+
+
+----------------------------------------more changes happended here --- memory wise in spooling-----------------------------
+
+3. Spooling :
+  
+   - Here the main changes is we inroduced the concept of Disk (secondary memory).
+   - the I/P and O/P will Happen from Disk memory.
+   - the INteraction between Disk memory and Main Memory(RAM) is much Faster than interaction between i/p devices
+     so all I/P are stored in Disk which are used by main memory for processing.
+
+  - we have resolved the most issue. like (memory issue and CPU idle time).
+  - but still the area of improvement was -> the processor is able to process only one Process at a time which causes the CPU to be idle
+    where process is perform other i/p o/p task.
+  
+  - to overcome above problem we inroduced the Multiprogramming Concept.
+
+
+4. Multiprogramming :
+
+  - Here mostly a single processor will handle one process (job) at a time but we have context switching concept here.
+  - we load multiple jobs in the main memory.
+  - if one job (process) is not interacting with Processor (ex: need input from external devices like keyboard)  then processor will pick other process
+    from the main memory.
+  
+  - here the next process (job) is picked if previous process is not in use.
+  - so her user get the feel of multiple task are performed at once.
+  - the problem here is we have to wait till process which is running finishes its job.
+  - to overcome this problem we have inroduced multitaking systems.
+
+5. Multitasking or Time sharing OS:
+  
+  - Here the concept of Multiprogramming and time sharing (scheduling) are combined to perform context switch very quickly between jobs.
+   so that user can interact many programm at once.
+   ex:- vedio playing in VLC and Browsing etc...
+
+  - scheduling:- the scheduling of jobs which are loaded in the main memory is done using different algorithms
+
+  - Next main changes were done in the processor stage where we increased the number of processor call multiprocessor OS
+
+6. MultiProcessor OS:
+
+ - Here we have more than two Processor running parallel. within single computer and OS.
+ - multiprocessor means multiple CPU ex: dual core, quad core etc....
+ - the problem here is we have to increase the Main memory because er have to Load more number of processes in the memory because we have muliple
+   processors
+
+   - there are two types of muliprocessing systems
+     - Symmatric (all have equal rights) -- it is more complex to implement
+	 - asymmatric (Master slave aarchitecture) -- easy to design
+
+
+- Advantage of Multiprocess OS
+  - it is more efficient
+  - it is very Fast
+  - it is reliable (if one processor fails the ther processor will take care).
+  - cost saving   --> istread of using four different computers we can add four cpu in one computer and get same results
+  - high troughput
+  - battery efficient
+  - true parallel processing
+  
+7. Real time systems:
+
+8. Distributed systems:
+
+ 

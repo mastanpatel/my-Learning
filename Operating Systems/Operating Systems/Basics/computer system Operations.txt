@@ -1,0 +1,34 @@
+﻿
+Some basic Operations of Computer system is required to understand the working of Operating system well.
+
+-- normally a modern OS consist of more than one CPU (PRocessor) and device Controller connected
+   to common bus that provide access to shared memory.
+
+
+  - Each device controller will take care of specific devise like (disk controller will take care of Hard disk resouce requiement etc..)
+  - CPU and device controller work concurrently.  that is the reason we can swith between multiple application at same time without hampering any thing
+    - ex: if we are playing vedio in broser we can minimise it and work on Word file typing etc..
+
+  - we have memory controller to handle the memory requists.
+
+
+
+  There are some important Terms to Know :
+
+  1. Bootstrap Program :
+    - this is an initial program which runs when computer is powered on
+	- it is stored in ROM
+	- it must locate OS and Load OS kernal into Memory for excution.
+
+  2. Interrupt :
+    - the events occured by hardware are called interupts
+	- in interrupt the hardware send signal to the CPU though system BUS.
+	- example : clicking somewhere on the screen using Mouse, or click keyborad button etc..
+
+  3. System calls (Monitor calls):
+   - Usually the interupts caused by software are called system calls.
+
+
+   When the CPU is Interrupted (hardware or software) then it stops what it is doing and transfer execution to specific location.
+    - the fixed location contains code to execute that perticular interupt.
+	- after execution of that interupt it resumes its interupted computation.

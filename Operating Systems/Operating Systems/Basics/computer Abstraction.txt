@@ -1,0 +1,26 @@
+﻿THere are Various abstractio in an Computer from application to eletrons and Holes
+
+Stages of Abstraction are below
+
+
+								   Application (crome,vcl, etc....)
+												 |
+												 |
+								   System Softwares (OS, Compilers, etc..)
+												 |
+									-------------------------above is Software
+												 |
+								   Instruction set Architecture   // ISA is Interface between Hardware and Software
+												 |
+									-------------------------below is Hardware
+												 |
+								   Machine Organisation (DataPaths and Controls)
+												 |
+												 |
+								  Seq and Combination Login Elements
+												 |
+												 |
+										   Logic Gates
+												 |
+												 |
+										   Transistors
