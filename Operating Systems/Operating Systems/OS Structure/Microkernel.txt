@@ -1,0 +1,73 @@
+﻿
+
+Kernel :
+is the core part of an operating system which manages system resources.
+It also acts like a bridge between application and hardware of the computer. 
+It is one of the first programs loaded on start-up (after the Bootloader).
+
+there are various ways the OS is Strucutred.
+
+some of them are 
+
+1. Simple OS strcture : DOS OS
+  -- here the application program can access the Hardware Direclty. if any error occures in Application program lead to whole system being Down.
+
+2. Monolithic OS strucuture : 
+-- Here mostly we have all the services packed in the Kernal. and Application are requisting these services from kernal and 
+   kernal is interacting with hardware to provide services requisted by applicaiton.
+
+3. Layered OS strucuture :
+-- Here each part of OS is Kept in deferent layers. the lowest layer is Hardware and Top layer is Application Layer and Kernal comes inbetween these two.
+-- it should be designed very carefully.
+
+4. Microkernel OS structure : latest and Famous
+-- 
+
+
+Kernel mode and User mode of CPU operation :
+- The operating system puts the CPU in kernel mode when it is executing in the kernel 
+  so, that kernel can execute some special operation.
+- The operating system puts the CPU in user mode when a user program is in execution 
+  so, that user program cannot interface with the operating system program.
+
+
+- System calls are typically implemented in the form of software interrupts, 
+-	which causes the hardware’s interrupt handler to transfer control over to an appropriate interrupt handler, 
+-	which is part of the operating system, switching the mode bit to kernel mode in the process. 
+-	The interrupt handler checks exactly which interrupt was generated, 
+-	checks additional parameters ( generally passed through registers ) if appropriate, and 
+-	then calls the appropriate kernel service routine to handle the service requested by the system call.
+
+
+
+--------------------------------------------------- Important learning Microkernel ------------------------------------------
+
+What is Microkernel?
+	Microkernel is one of the classification of the kernel. 
+	Being a kernel it manages all system resources. 
+	But in a microkernel, the user services and kernel services are implemented in different address space. 
+	The user services are kept in user address space, 
+	and kernel services are kept under kernel address space, 
+	thus also reduces the size of kernel and size of operating system as well.
+
+
+The Operating System remains unaffected as user services and kernel services are isolated 
+so if any user service fails it does not affect kernel service. 
+
+microkernel is easily extendable i.e. 
+if any new services are to be added they are added to user address space and hence requires no modification in kernel space.
+It is also portable, secure and reliable.
+
+
+Microkernel Architecture :–
+Since kernel is the core part of the operating system, so it is meant for handling the most important services only.
+Thus in this architecture only the most important services are inside kernel and 
+rest of the OS services are present inside system application program. 
+Thus users are able to interact with those not-so important services within the system application.
+And the microkernel is solely responsible for the most important services of operating system.
+
+
+most important services of operating system :
+	- Inter process-Communication
+	- Memory Management
+	- CPU-Scheduling

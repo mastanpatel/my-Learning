@@ -56,10 +56,10 @@
     <Content Include="Basics\types of OS.txt" />
     <Content Include="CPU scheduling\cpu scheduling basics.txt" />
     <Content Include="Operating Systems.txt" />
+    <Content Include="OS Structure\Microkernel.txt" />
+    <Content Include="OS Structure\system calls.txt" />
     <Content Include="What is OS.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OS Structure\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

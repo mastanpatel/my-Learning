@@ -1,0 +1,32 @@
+﻿
+system call :
+
+- a system call is the programmatic way in which a computer program requests a service from the kernel of the operating system.
+- A system call is a way for programs to interact with the operating system. 
+
+- System call provides the services of the operating system to the user programs via Application Program Interface(API).
+
+- System calls are the only entry points into the kernel system. 
+- All programs needing resources must use system calls.
+
+
+Services Provided by System Calls :
+- Process creation and management
+- Main memory management
+- File Access, Directory and File system management
+- Device handling(I/O)
+- Protection
+- Networking, etc.
+
+
+Types of System Calls : There are 5 different categories of system calls –
+
+- Process control: end, abort, create, terminate, allocate and free memory.
+- File management: create, open, close, delete, read file etc.
+- Device management
+- Information maintenance
+- Communication
+
+
+
+Refer link : https://www.geeksforgeeks.org/operating-system-introduction-system-call/ for more imformation.
