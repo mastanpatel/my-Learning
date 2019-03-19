@@ -1,0 +1,53 @@
+﻿
+
+Here are the list of services the OS Provides to User:
+
+1. USER Interface (GUI or CLI)
+2. Resource Management
+3. File Management
+4. program execution 
+5. I/O operations
+6. Communications (process syncronisation)
+7. Accounting
+8. Error detection
+9. security and protection.
+
+
+Explaination:
+
+1. User Interface :
+  - this service of os provides user to interact with the os easy. and help in performing task to user.
+   ex:- windows GUI or CLI
+
+2. Resource management :
+ - this service will take care of all the resources needed by application for its execution.
+   here OS manages the Resources effectivly to make system work smoothly.
+   ex: resources are memory, file access, I/O access etc..
+
+3. File management :
+- this service of OS will help in managing the File system. for example a file is not accessable to all. 
+   can use this service to restrict or provide access on the file. and manage all file system. 
+
+4. program execution :
+- this service help us to run our program properly.
+here an OS will take source code and compile it to convert it to object code and excute it and show the output.
+
+source code --> Compile --> Object code --> Executor --> output.
+
+5. I/O operations :
+- here OS will manage the I/O devices requist by user.  when we need to access I/O or O/P device we requist OS to provide access.
+  OS will handle the requist.
+
+6. Coomunication :
+- this service of OS will help the communication between deferent process of same system or diferent system connect through the computer network.
+
+7.Accountabilty :
+- this service keep track of how the resources are consumed by different user to do furthur analysis and research for improvement of the OS.
+  log keeping for unexpected error, keeping track of resource usage etc...
+
+8. error detection :
+- this service will detect if any error occurs in OS and handles it effectively.
+
+9. Security and Protection :
+- this service provides security layer to system by imposing protection by authenticating the user 
+  and securing system from malicious software/malwares.

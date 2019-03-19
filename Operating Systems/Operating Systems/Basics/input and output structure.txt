@@ -1,1 +1,32 @@
 ﻿
+
+- storage is one of I/O devices of computer.
+ 
+- large portion of OS code dedicated to managing I/O. because of its importance to the releiabilty & performance of System. 
+  and varying nature of devices connected to system.
+
+- a general pupose computer consist of CPU's and I/O devices and its Controller connected through a common BUS (an connected path).
+
+-each devide controller is incharge of specific type of device
+
+-- typically OS have a device drivers for each device controller. drivers help in better and smooth communication between OS and device.
+
+       Device controller -> Device Driver -> Operating System 
+
+
+
+	---------very important---------------- Working of I/O operation ----------------------------------------------
+
+	1. to start I/O operation a device driver load appropriete registers within the device controller
+
+	2. next the device controller examine the content of these registers to determine what action to take.
+
+	3. now the controller start to transfer data from device to its local buffer.
+
+	4. once the transfer of data is complete the controller informs device trogh an interupt that it has finished the operation.
+
+	5. then device driver return control to OS.
+
+
+	-- the above working model is not efficient for Large Data I/O operation
+	 so to overcome or solve that problem we use DMA (direct memeroy access).

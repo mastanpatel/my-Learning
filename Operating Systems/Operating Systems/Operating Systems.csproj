@@ -52,6 +52,7 @@
     <Content Include="Basics\extras.txt" />
     <Content Include="Basics\input and output structure.txt" />
     <Content Include="Basics\storage structure.txt" />
+    <Content Include="Basics\OS services.txt" />
     <Content Include="Basics\types of OS.txt" />
     <Content Include="CPU scheduling\cpu scheduling basics.txt" />
     <Content Include="Operating Systems.txt" />
