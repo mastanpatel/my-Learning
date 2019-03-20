@@ -71,3 +71,11 @@ most important services of operating system :
 	- Inter process-Communication
 	- Memory Management
 	- CPU-Scheduling
+
+
+
+Advantages of Microkernel –
+
+The architecture of this kernel is small and isolated hence it can function better.
+Expansion of the system is easier, it is simply added in the system application without disturbing the kernel.
+Eclipse IDE is a good example of Microkernel Architecture.

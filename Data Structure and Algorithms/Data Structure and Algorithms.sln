@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Structure and Algorith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{B3C2FFF6-46B6-465C-9123-359AAA378181}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{C0651703-050E-4827-8E61-EE4E9C3206F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{15445973-6F96-4BBC-95FA-6DD9F80A93FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B3C2FFF6-46B6-465C-9123-359AAA378181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C2FFF6-46B6-465C-9123-359AAA378181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C2FFF6-46B6-465C-9123-359AAA378181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0651703-050E-4827-8E61-EE4E9C3206F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0651703-050E-4827-8E61-EE4E9C3206F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0651703-050E-4827-8E61-EE4E9C3206F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0651703-050E-4827-8E61-EE4E9C3206F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15445973-6F96-4BBC-95FA-6DD9F80A93FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15445973-6F96-4BBC-95FA-6DD9F80A93FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15445973-6F96-4BBC-95FA-6DD9F80A93FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15445973-6F96-4BBC-95FA-6DD9F80A93FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
