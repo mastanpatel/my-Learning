@@ -92,12 +92,25 @@ namespace InterviewBit
             Console.ReadKey();
         }
 
+
+
+        private static void getMaxProd()
+        {
+            MAXSPPROD max = new MAXSPPROD();
+
+            List<int> ls = new List<int>() { 7, 5, 7, 9, 8, 7 };
+
+            Console.WriteLine("Max Prod value :"+ max.maxSpecialProduct(ls));
+
+            Console.ReadKey();
+        }
         static void Main(string[] args)
         {
             //minStepDeriver();
             // MaxSum();
             // getMatrix(8);
-            gerRepeatedNumber();
+            // gerRepeatedNumber();
+            getMaxProd();
         }
 
         
