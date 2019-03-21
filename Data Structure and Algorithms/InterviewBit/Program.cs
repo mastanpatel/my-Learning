@@ -78,11 +78,26 @@ namespace InterviewBit
         }
 
 
+        private static void gerRepeatedNumber()
+        {
+            List<int> ls = new List<int>()
+            {
+                3,4,1,4,1
+            };
+
+            DuplicateArray dp = new DuplicateArray();
+
+            Console.Write("Repeated Number : "+dp.repeatedNumber(ls) + "");
+
+            Console.ReadKey();
+        }
+
         static void Main(string[] args)
         {
             //minStepDeriver();
             // MaxSum();
-            getMatrix(8);
+            // getMatrix(8);
+            gerRepeatedNumber();
         }
 
         
