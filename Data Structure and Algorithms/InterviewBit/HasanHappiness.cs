@@ -1,0 +1,7 @@
+﻿namespace InterviewBit
+{
+    class HasanHappiness
+    {
+
+    }
+}

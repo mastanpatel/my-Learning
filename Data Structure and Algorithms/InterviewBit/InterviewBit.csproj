@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DuplicateArray.cs" />
+    <Compile Include="HasanHappiness.cs" />
     <Compile Include="maximumSum.cs" />
     <Compile Include="MAXSPPROD.cs" />
     <Compile Include="MinStep.cs" />

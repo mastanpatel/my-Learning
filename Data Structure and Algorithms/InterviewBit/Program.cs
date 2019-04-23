@@ -15,8 +15,6 @@ namespace InterviewBit
             Console.WriteLine("The minimum steps Required are : " + minStep.GetminimumSteps(x, y));
             Console.ReadKey();
         }
-
-
         static void MaxSum()
         {
             maximumSum max = new maximumSum();
@@ -57,8 +55,6 @@ namespace InterviewBit
             Console.WriteLine("The Max sum is : "+  max.maxSubArray(ls));
             Console.ReadKey();
         }
-
-
         private static void getMatrix(int v)
         {
             SpiralOrderMatrix matrix = new SpiralOrderMatrix();
@@ -76,8 +72,6 @@ namespace InterviewBit
             }
             Console.ReadKey();
         }
-
-
         private static void gerRepeatedNumber()
         {
             List<int> ls = new List<int>()
@@ -91,9 +85,6 @@ namespace InterviewBit
 
             Console.ReadKey();
         }
-
-
-
         private static void getMaxProd()
         {
             MAXSPPROD max = new MAXSPPROD();
@@ -104,13 +95,18 @@ namespace InterviewBit
 
             Console.ReadKey();
         }
+
+
+
+
+
         static void Main(string[] args)
         {
             //minStepDeriver();
             // MaxSum();
             // getMatrix(8);
             // gerRepeatedNumber();
-            getMaxProd();
+           // getMaxProd();
         }
 
         
