@@ -1,11 +1,10 @@
 using System;
-using System.Collections;
 
 namespace Arrays
 {
     class Program
     {
-        
+
         static void Main(string[] args)
         {
             #region oldcode
@@ -50,23 +49,46 @@ namespace Arrays
             //Console.ReadKey();
 
 
-            #endregion
+
 
             //-------------\
-            subArraySum sb = new subArraySum();
-            int[] numbers = new int[] { 1, 2, 3 ,4 ,15 ,7 ,19 ,12 ,10 ,8 };
+            //subArraySum sb = new subArraySum();
+            //int[] numbers = new int[] { 1, 2, 3, 4, 15, 7, 19, 12, 10, 8 };
 
-            IEnumerable e = sb.getIndex(10, 18, numbers);
+            //IEnumerable e = sb.getIndex(10, 18, numbers);
 
-            foreach (var item in e)
-            {
-                Console.Write(item + " ");
-            }
-            Console.WriteLine();
-            sb.ArraySum(numbers, 10, 18);
+            //foreach (var item in e)
+            //{
+            //    Console.Write(item + " ");
+            //}
+            //Console.WriteLine();m
+            ////sb.ArraySum(numbers, 10, 18);
+            ////Console.ReadKey();
+
+            //string inputValues = Console.ReadLine();
+            //string[] inputValue = inputValues.Split(' ');
+            //int arraySize = int.Parse(inputValue[0]);
+            //int arraySum = int.Parse(inputValue[1]);
+            //int[] arr = new int[arraySize];
+            //string inputArray = Console.ReadLine();
+            //string[] inputArr = inputArray.Split(' ');
+
+            //for (int j = 0; j < inputArr.Length; j++)
+            //{
+            //    arr[j] = int.Parse(inputArr[j]);
+            //}
+
+            //sb.ArraySum(arr, arraySize, arraySum);
+
+            #endregion
+
+            // missingNumber.MainMethod();
+            //sortZeroOneTwoArray.Mainmethod();
+            //arrayEquilibrium.MainMethod();
+            minDiference.MainMethod();
+            
             Console.ReadKey();
         }
 
     }
-
 }

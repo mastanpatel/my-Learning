@@ -59,9 +59,7 @@ namespace Arrays
                 if (curr_sum == sum)  
                 { 
                     int p = i-1; 
-                    Console.WriteLine("Sum found between " + 
-                                         "indexes " + start+  
-                                               " and " + p); 
+                    Console.Write((start+1)+" " + (p+1)); 
                     return 1; 
                 } 
               
@@ -70,8 +68,8 @@ namespace Arrays
                 curr_sum = curr_sum + arr[i]; 
               
             } 
-            Console.WriteLine("No subarray found"); 
-            return 0; 
+            //Console.WriteLine("No subarray found"); 
+            return -1; 
         } 
   
     }
