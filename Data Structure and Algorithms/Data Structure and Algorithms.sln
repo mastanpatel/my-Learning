@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewBit", "InterviewBit\InterviewBit.csproj", "{BDC76B5D-8EFF-4228-96E0-17AAF748481C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{CD553331-7E09-4197-A848-750FB7F9AF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiringChallenges", "HiringChallenges\HiringChallenges.csproj", "{267FF0FD-F55A-4231-B04A-02100B399361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BDC76B5D-8EFF-4228-96E0-17AAF748481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDC76B5D-8EFF-4228-96E0-17AAF748481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDC76B5D-8EFF-4228-96E0-17AAF748481C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD553331-7E09-4197-A848-750FB7F9AF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD553331-7E09-4197-A848-750FB7F9AF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD553331-7E09-4197-A848-750FB7F9AF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD553331-7E09-4197-A848-750FB7F9AF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267FF0FD-F55A-4231-B04A-02100B399361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267FF0FD-F55A-4231-B04A-02100B399361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267FF0FD-F55A-4231-B04A-02100B399361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267FF0FD-F55A-4231-B04A-02100B399361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
