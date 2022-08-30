@@ -7,32 +7,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c sharp Fundamentals", "c s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C-sharp", "C-sharp", "{DAD98A98-7F66-4C9D-BF08-AA958702885A}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		TextFile2.txt = TextFile2.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{D203E8F9-7A97-40B6-86A8-7C9EF1EDB2A8}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		q.txt = q.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oops", "oops", "{03E965BD-5B85-409F-BCA9-AEED566354A5}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		oops.txt = oops.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity Framework", "Entity Framework", "{335CE0D0-16FF-495C-BDAD-F8E7A5484B7C}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		tity framework.txt = tity framework.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asp core", "asp core", "{B6216CF6-8463-4A41-A220-CF41889152F6}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		aspcore.txt = aspcore.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "design pattern", "design pattern", "{84EFEF3C-4C0D-4D24-BB62-2A46AB7390DC}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		design pattern.txt = design pattern.txt
 	EndProjectSection
 EndProject
 Global
